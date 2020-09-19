@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: white;
+    
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+    font-weight: 900;
+}
+
+p {
+    padding: 10px;
+}
+
+#navbar {
+    display: flex;
+    width: fill;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.096);
+    align-items: flex-end;
+    margin-bottom: 5vh;
+    padding: 0px 40px;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.356);
+}
+
+#navTitle {
+    padding-right: 40px;
+}
+
+.tab {
+    display: block;
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.tab:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+}
